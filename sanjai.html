@@ -1,0 +1,522 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <!-- <link href="sanjai.css"/> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/> 
+   
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/> 
+ </head>
+ <style >
+    
+    @media (max-width: 768px) {
+      .desktop-menu {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: flex;
+      }
+    }
+
+    @media (min-width: 769px) {
+      .desktop-menu {
+        display: flex;
+      }
+
+      .mobile-menu {
+        display: none;
+      }
+    }
+ </style>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-red-600 text-white ">
+   <div class="container mx-auto flex justify-between items-center p-5">
+    <h1 class="text-3xl font-bold">
+      "Hey there!👏"
+    </h1>
+    <nav class="space-x-4 #about desktop-menu text-white">
+        
+     <a class=" hover:text-black" href="#whoami">
+     Whoami
+     </a>
+     <a class=" hover:text-black" href="#resume">
+      Resume
+     </a>
+     <a class=" hover:text-black" href="#skills">
+      Skills
+     </a>
+     <a class=" hover:text-black" href="#certificates">
+      Certificates
+     </a>
+     <a class=" hover:text-black" href="#blog-projects">
+      Blog & Projects
+     </a>
+     <a class=" hover:text-black" href="#videos">
+      Videos
+     </a>
+     <a class=" hover:text-black" href="#contact">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="container mx-auto p-5 mt-10" id="about">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Whoami
+   </h2>
+   <div class="flex flex-col md:flex-row items-center">
+    <img alt="portfolio owner" class="rounded-full mb-5 md:mb-0 md:mr-5" height="150" src="/img/sanjai1.jpeg" width="150"/>
+    <p class="text-gray-700">
+     
+         I’m <b>Sanjai Mahalingam</b>, a passionate cybersecurity enthusiast and aspiring<b> Cybersecurity Researcher</b>.With a strong foundation in 
+      <b>Networking, Ethical Hacking, and Penetration Testing</b>, coupled with 
+      my expertise in Linux systems, I am dedicated to safeguarding digital environments.
+      My leadership experience and technical skills drive my commitment to enhancing security measures and
+      contributing to a safer cyber world.  
+     
+    </p>
+   </div>
+  </section>
+  <section class="container mx-auto p-5 mt-10" id="resume">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Resume
+   </h2>
+   <div class="flex space-x-4">
+    <a class="bg-red-600 text-white px-4 py-2 rounded hover:bg-black" href="/resume.pdf/resume.pdf">
+     Download Resume
+    </a>
+    <a class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-black" href="/resume.pdf/resume.pdf">
+     View👁️‍🗨️
+    </a>
+   </div>
+  </section>
+  <section class="container mx-auto p-5 mt-10" id="skills">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Skills
+<br>
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+
+  .calendar-view {
+      max-width: 1200px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+  }
+
+  .section {
+      background: white;
+      flex: 1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Hover animation */
+  .section:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .section h3 {
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      color: #333;
+  }
+
+  .section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+  }
+
+  .section ul li {
+      background: #c61515;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+  }
+
+  .section ul li:hover {
+      background: #070512;
+      cursor: pointer;
+  }
+
+  /* Rounded button */
+  .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #333; /* Gray-800 color */
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+      background-color: #555; /* Slightly lighter gray */
+  }
+
+  @media (max-width: 768px) {
+      .calendar-view {
+          flex-direction: column;
+          gap: 15px;
+      }
+  }
+</style>
+</head>
+<body>
+
+<div class="calendar-view">
+<!-- Tools Section -->
+<div class="section">
+  <h3>Tools</h3>
+  <ul>
+      <li>OSINT </li>
+      <li>Nmap | Nessus | OpenVAS</li>
+      <li>Metasploit | Burp Suite</li>
+      <li>john | hydra | hashcat </li>
+      <li>Github tools | OWAPS </li>
+  </ul>
+  
+</div>
+
+<!-- Penetration Testing Section -->
+<div class="section">
+  <h3>Penetration Testing</h3>
+  <ul>
+      <li>Reconnaissance</li>
+       <li>Vulnerability Scanning</li>
+      <!-- <li>Network Penetration</li> -->
+      <li>Web Application Testing</li>
+      <li>Social Engineering</li>
+     
+      
+      
+  </ul>
+  
+</div>
+
+
+<!-- Programming Languages Section -->
+<div class="section">
+  <h3>Programming(concepts)</h3>
+  <ul>
+      <li>Python | C++</li>
+      <!-- <li></li> -->
+      <li>javascript</li>
+      <li>html & css</li>
+      <!-- <li></li> -->
+  </ul>
+ 
+</div>
+
+
+</div>
+
+</body>
+
+
+  </section>
+
+  <section class="container mx-auto p-5 mt-10" id="certificates">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Certificates
+   </h2>
+   <div class="flex space-x-4">
+    <a class="bg-red-600 text-white px-10 py-2 rounded hover:bg-black" href="/certificate/RedTeam-CPT-Certificate.pdf">
+     CPT certificate    
+    </a>
+    <a class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-black" href="/certificate/RedTeam-CPT-Certificate.pdf">
+     View👁️‍🗨️
+    </a>
+   </div>
+<br> 
+
+
+   <div class="flex space-x-4">
+    <a class="bg-red-600 text-white px-4 py-2 rounded hover:bg-black" href="/certificate/Networking_Basics_Badge20241128-27-zrj04r.pdf">
+      Networking certificate 
+    </a>
+    <a class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-black" href="/certificate/Networking_Basics_Badge20241128-27-zrj04r.pdf">
+     View👁️‍🗨️
+    </a>
+   </div>
+
+  </section>
+
+
+
+
+
+
+  <section class="container mx-auto p-5 mt-10" id="blog-projects">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Blog & Projects
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the blog post content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/MVmEIhed3h18YCZftIvzLeKvZLy4a0LSp93P4JUzvbWhGKsnA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Blog Post Title 1
+     </h3>
+     <p class="text-gray-700">
+      upcoming to update 
+     </p>
+    </div>
+    <!-- <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the blog post content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/MVmEIhed3h18YCZftIvzLeKvZLy4a0LSp93P4JUzvbWhGKsnA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Blog Post Title 2
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+     </p>
+    </div>
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the blog post content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/MVmEIhed3h18YCZftIvzLeKvZLy4a0LSp93P4JUzvbWhGKsnA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Blog Post Title 3
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+     </p>
+    </div> -->
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the project content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Project Title 1
+     </h3>
+     <p class="text-gray-700">
+     upcoming to update 
+     </p>
+    </div>
+    <!-- <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the project content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Project Title 2
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+     </p>
+    </div>
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the project content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Project Title 3
+     </h3>
+     <p class="text-gray-700">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+     </p>
+    </div>
+   </div> -->
+  </section>
+  <section class="container mx-auto p-5 mt-10" id="videos">
+   <h2 class="text-2xl font-bold mb-5 text-red-500">
+    Videos
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the video content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Video Title 1
+     </h3>
+     <p class="text-gray-700">
+      upcoming to update 
+     </p>
+    </div>
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the video content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Video Title 2
+     </h3>
+     <p class="text-gray-700">
+      upcoming to update 
+     </p>
+    </div>
+    <div class="bg-white p-5 rounded shadow-md">
+     <img alt="A detailed image representing the video content" class="mb-3" height="200" src="https://storage.googleapis.com/a1aa/image/80bvwK52CFbfDSwOZvPqJEvyPHAP6YzVhBiTvpFsGzLnhC7JA.jpg" width="300"/>
+     <h3 class="text-xl font-bold mb-2">
+      Video Title 3
+     </h3>
+     <p class="text-gray-700">
+      upcoming to update 
+     </p>
+    </div>
+   </div>
+  </section>
+  
+
+
+
+  
+  <section class="container mx-auto p-5 mt-10" > <!-- id="contact"> -->
+     <h2 class="text-2xl font-bold mb-5 text-red-500">  
+    
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color:white;
+      }
+
+      .contact-box {
+          max-width: 500px;
+          margin: 50px auto;
+          padding: 20px;
+          background:#fbfbfb;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+      }
+
+      .contact-box h2 {
+          text-align: center;
+          margin-bottom: 20px;
+          color: #333;
+      }
+
+      .contact-box label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: #555;
+      }
+
+      .contact-box input,
+      .contact-box textarea {
+          width:100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 1rem;
+          outline: none;
+          transition: border-color 0.3s ease;
+      }
+
+      .contact-box input:focus,
+      .contact-box textarea:focus {
+          border-color: #333;
+      }
+
+      .contact-box button {
+          width: 100%;
+          padding: 10px;
+          background: #fa2929; 
+          color: white;
+          border: none;
+          border-radius: 30px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      .contact-box button:hover {
+          background:rgb(0, 0, 0);
+      }
+  </style>
+
+
+<div class="contact-box">
+  <h2>Contact Us </h2>
+  <form onsubmit="openEmail(event)">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+      <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<script>
+  function openEmail(event) {
+      event.preventDefault(); // Prevent form from submitting normally
+
+      // Get the form values
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      // Construct the mailto link
+      const mailtoLink = `mailto:your-email@example.com?subject=Message from ${encodeURIComponent(name)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AMessage:%0A${encodeURIComponent(message)}`;
+
+      // Open the user's email client
+      window.location.href = mailtoLink;
+  }
+</script>
+
+
+
+
+
+
+
+
+<footer class="bg-gray-800 text-white py-5 w-full" id="contact">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-10">
+      <p class="text-lg font-semibold mb-4 md:mb-0">
+          Follow Me on Social Media
+      </p>
+      <div class="flex space-x-6">
+          <!-- Gmail -->
+          <a class="hover:text-yellow-400 text-2xl" href="mailto:sanjai0070@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+          </a>
+          <!-- LinkedIn -->
+          <a class="hover:text-blue-500 text-2xl" href="https://www.linkedin.com/in/sanjaimahalingam/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+          </a>
+          <!-- GitHub -->
+          <a class="hover:text-gray-400 text-2xl" href="https://github.com/sanjai-0070/portfolio.git" target="_blank">
+              <i class="fab fa-github"></i>
+          </a>
+          <!-- TryHackMe -->
+          <a class="hover:text-green-500 text-2xl" href="https://tryhackme.com/r/p/sanjai0070" target="_blank">
+              <i class="fas fa-hat-wizard"></i>
+          </a>
+          <!-- YouTube -->
+          <a class="hover:text-red-600 text-2xl" href="#" target="_blank">
+              <i class="fab fa-youtube"></i>
+          </a>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+</head>
+ </body>
+</html>
